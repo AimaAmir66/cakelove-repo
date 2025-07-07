@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cake Love - Order</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🍰 Cake Love</div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="order-section">
+    <h1>Your Order</h1>
+    <div id="orderList"></div>
+    <h3 id="totalPrice"></h3>
+
+    <form id="orderForm">
+      <input type="text" id="customerName" placeholder="Your Name" required>
+      <input type="text" id="customerAddress" placeholder="Your Address" required>
+      <input type="tel" id="customerPhone" placeholder="Your Phone Number" required>
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cake Love. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

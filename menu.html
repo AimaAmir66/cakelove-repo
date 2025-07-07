@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cake Love - Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🍰 Cake Love</div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="menu-section">
+    <h1>Our Menu</h1>
+    <div class="menu-items">
+      <div class="product-card">
+        <img src="images/cake1.jpg" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Rs. 1200</p>
+        <button onclick="addToOrder('Chocolate Cake', 1200)">Add to Order</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/brownie1.jpg" alt="Fudgy Brownie">
+        <h3>Fudgy Brownie</h3>
+        <p>Rs. 500</p>
+        <button onclick="addToOrder('Fudgy Brownie', 500)">Add to Order</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cake Love. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
